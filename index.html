@@ -1,630 +1,601 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="google-site-verification" content="aevvzZ66rmZm6CywgG5hbnz1aSRK64eR-DkxOW1St_4" />
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="favicon.png">
-        <title>HackMTY</title>
-        <meta name="description" content="HackMTY is Tec de Monterrey's state hackathon. On March 21th, all programmers and designers from all major universities from the state will work together for 24 hours to come up with awesome hacks and ideas.">
-        <meta property="og:url" content="http://hackmty.com/" />
-        <meta property="og:image" content="http://hackmty.com/img/logo.png" />
-        <meta property="og:site_name" content="HackMTY" />
-        <meta property="og:title" content="HackMTY" />
-        <meta property="og:description" content="HackMTY is Tec de Monterrey's state hackathon. On March 21th, all programmers and designers from all major universities from the state will work together for 24 hours to come up with awesome hacks and ideas." />
-        <meta name="keywords" content="HackMTY, hack, hackathon, hackathon 2015, hackathon monterrey, hackathon mty, monterrey">
+  <head>
+    <meta name="google-site-verification" content="aevvzZ66rmZm6CywgG5hbnz1aSRK64eR-DkxOW1St_4" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>HackMTY</title>
+    <meta name="description" content="HackMTY is Tec de Monterrey's state hackathon. On August 25th, all programmers and designers from all major universities from the state will work together for 24 hours to come up with awesome hacks and ideas.">
+    <meta property="og:url" content="http://hackmty.com/" />
+    <meta property="og:image" content="http://hackmty.com/img/logo.png" />
+    <meta property="og:site_name" content="HackMTY" />
+    <meta property="og:title" content="HackMTY" />
+    <meta property="og:description" content="HackMTY is Tec de Monterrey's state hackathon. On August 25th, all programmers and designers from all major universities from the state will work together for 24 hours to come up with awesome hacks and ideas." />
+    <meta name="keywords" content="HackMTY, hack, hackathon, hackathon 2018, hackathon monterrey, hackathon mty, monterrey">
 
-        <!-- Bootstrap Core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Custom CSS -->
-        <link href="css/style.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
 
-        <!-- Custom Fonts -->
-        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-        <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
-    </head>
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
+  </head>
 
-    <body id="page-top" class="index">
+  <body id="page-top" class="index">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo-nav.svg"></a> <!-- Checar como se ve con imagen mas grande (70px) -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo-nav.svg"></a> <!-- Checar como se ve con imagen mas grande (70px) -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#about">About</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#schedule">Schedule</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#sponsors">Sponsors</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#faq">FAQ</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/hackmty/" target="_blank"><img src="img/twitter.svg" class="img-centered"></a>
+            </li>
+            <li>
+              <a href="https://facebook.com/HackMTY/" target="_blank"><img src="img/facebook.svg"></a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header class="slideshow">
+      <div class="container">
+        <div class="intro-text">
+          <div>
+            <img src="img/logo.svg" class="logo"  style="max-height: 400px;">
+          </div>
+          <div class="intro-lead-in">August 25th - 26th <br> @Tec de Monterrey, Monterrey NL</div>
+          <a href="#" class="page-scroll btn-xl" style="background-color: gray; border-color: gray; pointer-events: none;" disabled>Register</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">About</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <h4 class="service-heading">What makes us awesome</h4>
+            <p>This is the largest student hackathon in Mexico. Hosted by Tec de Monterrey, ranked 5 stars by QS, in the top 40 universities worldwide and top 10 in Latin America.</p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="service-heading">All students welcome!</h4>
+            <p>Whether it's your first hackathon or you're an experienced hacker, HackMTY is perfect for you and there's no entry fee.</p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="service-heading">Expect great things</h4>
+            <p>We’ll have mentors from different companies, and a great atmosphere for learning something new. We'll be providing food and snacks to keep you energized during the 24 hours.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading" style="margin-bottom: 2%;">Map</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <a href="https://www.google.com.mx/maps/place/Centro+Estudiantil,+Tecnol%C3%B3gico+de+Monterrey,+Luis+Elizondo,+Tecnol%C3%B3gico,+64849+Monterrey,+NL/@25.6486964,-100.2897986,17z/data=!3m1!4b1!4m2!3m1!1s0x8662bfb96b8bc3c9:0x227db37e58a10fe1?hl=es-419" target="_blank"><img src="img/map.jpg" class="img-responsive"></a>
+          </div>
+          <p class="small_text" style="text-align: right; margin-right: 15px">Click to open in Google Maps</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading" style="color: #fff;">Schedule</h2>
+            <h3>Saturday</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/1.png" alt="Registration">
                 </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#about">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#schedule">Schedule</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#sponsors">Sponsors</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#faq">FAQ</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/hackmty/" target="_blank"><img src="img/twitter.svg" class="img-centered"></a>
-                        </li>
-                        <li>
-                            <a href="https://facebook.com/HackMTY/" target="_blank"><img src="img/facebook.svg"></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-
-        <!-- Header -->
-        <header class="slideshow">
-            <div class="container">
-                <div class="intro-text">
-                    <div>
-                        <img src="img/logo.svg" class="logo"  style="max-height: 400px;">
-                    </div>
-                    <div class="intro-lead-in">August 26th - 27th <br> @Tec de Monterrey, Monterrey NL</div>
-                    <a href="http://register.hackmty.com" class="page-scroll btn-xl">Register</a>
-                </div>
-            </div>
-        </header>
-
-        <!-- About Section -->
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">About</h2>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <h4 class="service-heading">What makes us awesome</h4>
-                        <p>This is the largest student hackathon in Mexico. Hosted by Tec de Monterrey, ranked 5 stars by QS, in the top 40 universities worldwide and top 10 in Latin America.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="service-heading">All students welcome!</h4>
-                        <p>Whether it's your first hackathon or you're an experienced hacker, HackMTY is perfect for you and there's no entry fee.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="service-heading">Expect great things</h4>
-                        <p>We’ll have mentors from different companies, and a great atmosphere for learning something new. We'll be providing food and snacks to keep you energized during the 24 hours.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading" style="margin-bottom: 2%;">Map</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <a href="https://www.google.com.mx/maps/place/Centro+Estudiantil,+Tecnol%C3%B3gico+de+Monterrey,+Luis+Elizondo,+Tecnol%C3%B3gico,+64849+Monterrey,+NL/@25.6486964,-100.2897986,17z/data=!3m1!4b1!4m2!3m1!1s0x8662bfb96b8bc3c9:0x227db37e58a10fe1?hl=es-419" target="_blank"><img src="img/map.jpg" class="img-responsive"></a>
-                    </div>
-                    <p class="small_text" style="text-align: right; margin-right: 15px">Click to open in Google Maps</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Schedule Section -->
-        <section id="schedule" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading" style="color: #fff;">Schedule</h2>
-                        <h3>Saturday</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class="timeline">
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/1.png" alt="Registration">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Registration</h4>
-                                        <h5>9:00-10:30am</h5>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Check in @Centro Estudiantil</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/2.png" alt="Intro">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Introduction & Kick-off!</h4>
-                                        <h5>11:00-12:00pm</h5>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Welcome to HackMTY talk, sponsors introductions, and tech demos!</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/4.png" alt="Hacking Begins">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Hacking Begins</h4>
-                                        <h5>12:30pm</h5>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Let the 24 hour Hacking Begin! Get creative and let the best hackers win.</p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/3.png" alt="Lunch">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Lunch</h4>
-                                        <h5>1:00-2:00pm</h5>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">A lot of food to start off the hacking, don't eat too much, there'll be more later!</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/5.png" alt="Dinner">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Dinner</h4>
-                                        <h5>8:00pm</h5>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Get some food and replenish energies.</p>
-                                    </div>
-                                </div>
-                            </li>    
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3>Sunday</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class="timeline">
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/6.png" alt="Snack">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Midnight Snack</h4>
-                                        <h5>1:00am</h5>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Need something to stay awake? Don't worry, we got your back.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/7.png" alt="Breakfast">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Breakfast</h4>
-                                        <h5>8:30am</h5>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Start off the day right, get some breakfast.</p>
-                                    </div>
-                                </div>
-                            </li>
-                                                        <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/8.png" alt="Hacking Ends">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Hacking Ends!</h4>
-                                        <h5>12:30pm</h5> 
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Submit your projects and get ready for demos!</p>
-                                    </div>
-                                </div>
-                            </li>
-                                                        <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/9.png" alt="Expo">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Expo</h4>
-                                        <h5>12:45pm - 2:00pm</h5>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Time for demos, show us what you built.</p>
-                                    </div>
-                                </div>
-                            </li>
-
-
-                            <li  class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/3.png" alt="Hacking Ends">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Lunch</h4>
-                                        <h5>2:00pm - 3:00</h5> 
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Eat your food while you watch some cool demos!</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/10.png" alt="Demos">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Final Demos</h4>
-                                        <h5>2:15pm</h5>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Time for the finalists to show off their hacks.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li  class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/11.png" alt="Winners">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4 class="subheading">Winners Announced!</h4>
-                                        <h5>3:15pm</h5>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Sponsor prizes announced as well!</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sponsors Section -->
-        <section id="sponsors">
-            <aside class="clients">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">Sponsors</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 text-center">
-                            <img src="img/logos/facebook.png" class="sponsors" alt="Facebook">
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-center">
-                          <br /><br />
-                            <img src="img/logos/df.png" class="sponsors" alt="Definity First">
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-center">
-                            <img src="img/logos/microsoft.png" class="sponsors" alt="Microsoft">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 text-center">
-                      <br /><br />
-                            <img src="img/logos/google.png" class="sponsors" alt="Google">
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-center">
-                      <br /><br />
-                            <img src="img/logos/tecdemty.png" class="sponsors" alt="Tec de Monterrey">
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-center">
-                            <img src="img/logos/acm.png" class="sponsors" alt="ACM MTY">
-                        </div>
-                    </div>
-                    <div class="row">
-                   </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 text-center">
-                            <img src="img/logos/SGMlogo.jpg" class="sponsors" alt="Sigma Alimentos" style="max-height: 200px; max-width: 200px; padding-top: 42px;">
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-center">
-                            <img src="img/logos/ukko.png" class="sponsors" alt="UKKO">
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-center">
-                          <br />
-                          <br />
-                          <br />
-                            <img src="img/logos/territorium.png" class="sponsors" alt="Territorium" style="max-height: 250px; max-width: 400px;">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 text-center">
-                        </div>                        <div class="col-md-4 col-sm-4 text-center">
-                            <img src="img/logos/mlh.png" class="sponsors" alt="MLH" style="max-height: 250px; max-width: 400px;">
-                        </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <p>Send an email to sponsors[AT]hackmty[DOT]com for more information.</p>
-                        <a href="mailto:sponsors@hackmty.com?subject=HackMTY Sponsor" class="page-scroll btn btn-xl">Sponsor</a> 
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </aside>
-        </section>
-
-        <!-- FAQ Section -->
-        <section id="faq" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading" style="color: #fff;">FAQ</h2>
-                    </div>
-                </div>
-                <div class="content">
-                  <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                            <input type="checkbox" id="question1" name="q"  class="questions">
-                            <div class="plus">+</div>
-                            <label for="question1" class="question">
-                              Will there be prizes?
-                            </label>
-                            <div class="answers">
-                              Of course there will be prizes although it isn’t all about winning but what you learn and build during those 24 hours. But don’t worry there will be a panel of judges that will select the three best hacks based on creativity, technical difficulty, design, and usefulness. Prizes for first, second and third place TBA. Sponsors also offer prizes for specific criteria, which they judge themselves.
-                            </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div>
-                            <input type="checkbox" id="question2" name="q" class="questions">
-                            <div class="plus">+</div>
-                            <label for="question2" class="question">
-                              How can I apply?
-                            </label>
-                            <div class="answers">
-                              To be announced.
-                            </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div>
-                            <input type="checkbox" id="question3" name="q" class="questions">
-                            <div class="plus">+</div>
-                            <label for="question3" class="question">
-                              What should I bring to HackMTY?
-                            </label>
-                            <div class="answers">
-                              Please bring a valid university ID (or any student ID if in high school), a computer (preferably a laptop), chargers, and any hardware you will use for your hack. You can also bring a sleeping bag, pillow, toiletries, and a couple changes of clothes, food will be provided at the event. No firearms, weapons, alcohol, or illegal drugs are allowed on campus.
-                            </div>
-                            </div>
-                      </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Registration</h4>
+                    <h5>9:00-10:30am</h5>
                   </div>
-
-                  <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                            <input type="checkbox" id="question4" name="q"  class="questions">
-                            <div class="plus">+</div>
-                            <label for="question4" class="question">
-                              What size are the teams? What happens if I don’t have a team?
-                            </label>
-                            <div class="answers">
-                              The teams are a maximum of 4 people. You can start off the event already with a team or you can meet with people at the event who also don’t have a team, don’t worry.
-                            </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div>
-                            <input type="checkbox" id="question5" name="q" class="questions">
-                            <div class="plus">+</div>
-                            <label for="question5" class="question">
-                              Will there be travel reimbursements?
-                            </label>
-                            <div class="answers">
-                              Unfortunately this year we can’t provide travel reimbursements and we know this is a big issue for people travelling from outside of Mexico, but we encourage you to try and come down to the event if it is possible for you. If you can’t make it hopefully we’ll be expecting you next year when our goal is to make travel reimbursements possible.
-                            </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div>
-                            <input type="checkbox" id="question6" name="q" class="questions">
-                            <div class="plus">+</div>
-                            <label for="question6" class="question">
-                              Not a student, but want to get involved?
-                            </label>
-                            <div class="answers">
-                              Unfortunately, you can’t participate but you can be a mentor or even a sponsor. Email us at <a href="mailto:mentors@hackmty.com?subject=HackMTY Mentors" style="color: #c4a1df">mentors[AT]hackmty[DOT]com</a> or check our sponsor section for more information on becoming a sponsor.
-                            </div>
-                        </div>
-                      </div>
-                  </div>
-
-                  <div class="row">
-                      <div class="col-md-4">
-                        <div>
-                            <input type="checkbox" id="question7" name="q"  class="questions">
-                            <div class="plus">+</div>
-                            <label for="question7" class="question">
-                              Who can attend HackMTY?
-                            </label>
-                            <div class="answers">
-                              You must be currently a student or have graduated in the last 12 months from the date of the event to attend HackMTY. All disciplines are welcome.
-                            </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div>
-                            <input type="checkbox" id="question8" name="q" class="questions">
-                            <div class="plus">+</div>
-                            <label for="question8" class="question">
-                              How much does it cost?
-                            </label>
-                            <div class="answers">
-                              It's absolutely free! There is no entry fee, HackMTY will provide you with plenty of food, snacks, swag, and prizes throughout the 24 hours.
-                            </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div>
-                            <input type="checkbox" id="question9" name="q" class="questions">
-                            <div class="plus">+</div>
-                            <label for="question9" class="question">
-                              Any other questions?
-                            </label>
-                            <div class="answers">
-                              If there is something that is still not clear or we didn’t cover please contact us at <a href="mailto:hello@hackmty.com?subject=HackMTY Question/Concern" style="color: #c4a1df">&#104;&#101;&#108;&#108;&#111;&#64;&#104;&#97;&#99;&#107;&#109;&#116;&#121;&#46;&#99;&#111;&#109;</a> or at <a href="https://twitter.com/hackmty/" target="_blank" style="color: #c4a1df">twitter</a> or <a href="https://facebook.com/HackMTY/" target="_blank" style="color: #c4a1df">facebook</a>.
-                            </div>
-                        </div>
-                      </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Check in @Centro Estudiantil</p>
                   </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Tec Section
-        <section id="tec" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading" style="color: #fff;">Tec de Monterrey</h2>
-                    </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/2.png" alt="Intro">
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <h4 class="service-heading darkbkg">What makes us awesome</h4>
-                        <p class="text-muted">This is the largest student hackathon in Latin America. Hosted by Tec de Monterrey, ranked 5 stars by QS, in the top 40 universities worldwide and top 10 in Latin America.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="service-heading darkbkg">All students welcome!</h4>
-                        <p class="text-muted">Whether it's your first hackathon or you're an experienced hacker, HackMTY is perfect for you and there's no entry fee.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="service-heading darkbkg">Expect great things</h4>
-                        <p class="text-muted">We’ll have mentors from different companies, and a great atmosphere for learning something new. We'll be providing food and snacks to keep you energized during the 24 hours.</p>
-                    </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Introduction & Kick-off!</h4>
+                    <h5>11:00-12:00pm</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Welcome to HackMTY talk, sponsors introductions, and tech demos!</p>
+                  </div>
                 </div>
-            </div>
-        </section> -->
-
-        <!--Contact -->
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 text-center col-md-push-6">
-                        <h2 class="section-heading">Contact Us</h2>
-                        <h3 class="section-subheading text-muted">Send us an e-mail with any questions to hello[AT]hackmty[DOT]com</h3>
-                        <a href="mailto:hello@hackmty.com?subject=HackMTY" class="page-scroll btn btn-xl">Send Email</a> 
-                    </div>
-                    <div class="col-md-6 col-sm-6 text-center col-md-pull-6">
-                            <a class="twitter-timeline" href="https://twitter.com/HackMTY" data-widget-id="557793132759502848" style="width: 100%; padding-top: 1%;">Tweets by @HackMTY</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-                        </script>
-                    </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/4.png" alt="Hacking Begins">
                 </div>
-            </div>
-        </section>
-
-        <footer class="bg-darkest-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <span class="copyright">Copyright &copy; HackMTY 2017</span>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline social-buttons">
-                            <li>
-                                <a href="https://twitter.com/hackmty/" target="_blank"><img src="img/twitter.svg" class="img-centered"></a>
-                            </li>
-                            <li>
-                                <a href="https://facebook.com/HackMTY/" target="_blank"><img src="img/facebook.svg"></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline quicklinks">
-                            <li><a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" style="color: #fff;">Code of Conduct</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Hacking Begins</h4>
+                    <h5>12:30pm</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Let the 24 hour Hacking Begin! Get creative and let the best hackers win.</p>
+                  </div>
                 </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/3.png" alt="Lunch">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Lunch</h4>
+                    <h5>1:00-2:00pm</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">A lot of food to start off the hacking, don't eat too much, there'll be more later!</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/5.png" alt="Dinner">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Dinner</h4>
+                    <h5>8:00pm</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Get some food and replenish energies.</p>
+                  </div>
+                </div>
+              </li>    
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3>Sunday</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/6.png" alt="Snack">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Midnight Snack</h4>
+                    <h5>1:00am</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Need something to stay awake? Don't worry, we got your back.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/7.png" alt="Breakfast">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Breakfast</h4>
+                    <h5>8:30am</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Start off the day right, get some breakfast.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/8.png" alt="Hacking Ends">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Hacking Ends!</h4>
+                    <h5>12:30pm</h5> 
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Submit your projects and get ready for demos!</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/9.png" alt="Expo">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Expo</h4>
+                    <h5>12:45pm - 2:00pm</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Time for demos, show us what you built.</p>
+                  </div>
+                </div>
+              </li>
+
+
+              <li  class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/3.png" alt="Hacking Ends">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Lunch</h4>
+                    <h5>2:00pm - 3:00</h5> 
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Eat your food while you watch some cool demos!</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/10.png" alt="Demos">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Final Demos</h4>
+                    <h5>2:15pm</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Time for the finalists to show off their hacks.</p>
+                  </div>
+                </div>
+              </li>
+              <li  class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="img-circle img-responsive" src="img/11.png" alt="Winners">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Winners Announced!</h4>
+                    <h5>3:15pm</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Sponsor prizes announced as well!</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section id="sponsors">
+      <aside class="clients">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Sponsors</h2>
             </div>
-        </footer>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-4 text-center">
+              <img src="img/logos/acm.png" class="sponsors" alt="ACM MTY">
+            </div>
+            <div class="col-md-4 col-sm-4 text-center">
+              <img src="img/logos/mlh.png" class="sponsors" alt="MLH" style="max-height: 250px; max-width: 400px;">
+            </div>
+            <div class="col-md-4 col-sm-4 text-center">
+              <br />
+              <br />
+              <img src="img/logos/bloomberg.png" class="sponsors" alt="ACM MTY">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-4 text-center">
+              <img src="img/logos/sticker-mule.png" class="sponsors" alt="MLH" style="max-height: 250px; max-width: 400px;">
+            </div> 
+          </div>
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <p>Send an email to sponsors@hackmty.com for more information.</p>
+              <a href="mailto:sponsors@hackmty.com?subject=HackMTY Sponsor" class="page-scroll btn btn-xl">Sponsor</a> 
+            </div>
+          </div>
+        </div>
+        </div>
+      </aside>
+    </section>
 
-        <!-- jQuery Version 1.11.0 -->
-        <script src="js/jquery-1.11.0.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <!-- FAQ Section -->
+    <section id="faq" class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading" style="color: #fff;">FAQ</h2>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <input type="checkbox" id="question1" name="q"  class="questions">
+                <div class="plus">+</div>
+                <label for="question1" class="question">
+                  Will there be prizes?
+                </label>
+                <div class="answers">
+                  Of course there will be prizes although it isn’t all about winning but what you learn and build during those 24 hours. But don’t worry there will be a panel of judges that will select the three best hacks based on creativity, technical difficulty, design, and usefulness. Prizes for first, second and third place TBA. Sponsors also offer prizes for specific criteria, which they judge themselves.
+                </div>
+              </div>
+            </div>
 
-        <!-- SlidShow -->
-        <script src="js/jquery.backstretch.js"></script>
-        <script>
-            $(".slideshow").backstretch([
-                "img/header-bg.jpg",
-                "img/header-bg2.jpg",
-                "img/header-bg3.jpg",
-                "img/header-bg4.jpg",
-                "img/header-bg5.jpg",
-              ], {fade: 750, duration: 3500});
-        </script>
+            <div class="col-md-4">
+              <div>
+                <input type="checkbox" id="question2" name="q" class="questions">
+                <div class="plus">+</div>
+                <label for="question2" class="question">
+                  How can I apply?
+                </label>
+                <div class="answers">
+                  To be announced.
+                </div>
+              </div>
+            </div>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
+            <div class="col-md-4">
+              <div>
+                <input type="checkbox" id="question3" name="q" class="questions">
+                <div class="plus">+</div>
+                <label for="question3" class="question">
+                  What should I bring to HackMTY?
+                </label>
+                <div class="answers">
+                  Please bring a valid university ID (or any student ID if in high school), a computer (preferably a laptop), chargers, and any hardware you will use for your hack. You can also bring a sleeping bag, pillow, toiletries, and a couple changes of clothes, food will be provided at the event. No firearms, weapons, alcohol, or illegal drugs are allowed on campus.
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <!-- Plugin JavaScript -->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="js/classie.js"></script>
-        <script src="js/cbpAnimatedHeader.js"></script>
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <input type="checkbox" id="question4" name="q"  class="questions">
+                <div class="plus">+</div>
+                <label for="question4" class="question">
+                  What size are the teams? What happens if I don’t have a team?
+                </label>
+                <div class="answers">
+                  The teams are a maximum of 4 people. You can start off the event already with a team or you can meet with people at the event who also don’t have a team, don’t worry.
+                </div>
+              </div>
+            </div>
 
-        <!-- Custom Theme JavaScript -->
-        <script src="js/script.js"></script>
-        <script src="js/countdown.js"></script>
+            <div class="col-md-4">
+              <div>
+                <input type="checkbox" id="question5" name="q" class="questions">
+                <div class="plus">+</div>
+                <label for="question5" class="question">
+                  Will there be travel reimbursements?
+                </label>
+                <div class="answers">
+                  Unfortunately this year we can’t provide travel reimbursements and we know this is a big issue for people travelling from outside of Mexico, but we encourage you to try and come down to the event if it is possible for you. If you can’t make it hopefully we’ll be expecting you next year when our goal is to make travel reimbursements possible.
+                </div>
+              </div>
+            </div>
 
-    </body>
+            <div class="col-md-4">
+              <div>
+                <input type="checkbox" id="question6" name="q" class="questions">
+                <div class="plus">+</div>
+                <label for="question6" class="question">
+                  Not a student, but want to get involved?
+                </label>
+                <div class="answers">
+                  Unfortunately, you can’t participate but you can be a mentor or even a sponsor. Email us at <a href="mailto:mentors@hackmty.com?subject=HackMTY Mentors" style="color: #c4a1df">mentors@hackmty.com</a> or check our sponsor section for more information on becoming a sponsor.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <input type="checkbox" id="question7" name="q"  class="questions">
+                <div class="plus">+</div>
+                <label for="question7" class="question">
+                  Who can attend HackMTY?
+                </label>
+                <div class="answers">
+                  You must be currently a student or have graduated in the last 12 months from the date of the event to attend HackMTY. All disciplines are welcome.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div>
+                <input type="checkbox" id="question8" name="q" class="questions">
+                <div class="plus">+</div>
+                <label for="question8" class="question">
+                  How much does it cost?
+                </label>
+                <div class="answers">
+                  It's absolutely free! There is no entry fee, HackMTY will provide you with plenty of food, snacks, swag, and prizes throughout the 24 hours.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div>
+                <input type="checkbox" id="question9" name="q" class="questions">
+                <div class="plus">+</div>
+                <label for="question9" class="question">
+                  Any other questions?
+                </label>
+                <div class="answers">
+                  If there is something that is still not clear or we didn’t cover please contact us at <a href="mailto:hello@hackmty.com?subject=HackMTY Question/Concern" style="color: #c4a1df">&#104;&#101;&#108;&#108;&#111;&#64;&#104;&#97;&#99;&#107;&#109;&#116;&#121;&#46;&#99;&#111;&#109;</a> or at <a href="https://twitter.com/hackmty/" target="_blank" style="color: #c4a1df">twitter</a> or <a href="https://facebook.com/HackMTY/" target="_blank" style="color: #c4a1df">facebook</a>.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tec Section
+      <section id="tec" class="bg-light-gray">
+      <div class="container">
+      <div class="row">
+      <div class="col-lg-12 text-center">
+      <h2 class="section-heading" style="color: #fff;">Tec de Monterrey</h2>
+      </div>
+      </div>
+      <div class="row text-center">
+      <div class="col-md-4">
+      <h4 class="service-heading darkbkg">What makes us awesome</h4>
+      <p class="text-muted">This is the largest student hackathon in Latin America. Hosted by Tec de Monterrey, ranked 5 stars by QS, in the top 40 universities worldwide and top 10 in Latin America.</p>
+      </div>
+      <div class="col-md-4">
+      <h4 class="service-heading darkbkg">All students welcome!</h4>
+      <p class="text-muted">Whether it's your first hackathon or you're an experienced hacker, HackMTY is perfect for you and there's no entry fee.</p>
+      </div>
+      <div class="col-md-4">
+      <h4 class="service-heading darkbkg">Expect great things</h4>
+      <p class="text-muted">We’ll have mentors from different companies, and a great atmosphere for learning something new. We'll be providing food and snacks to keep you energized during the 24 hours.</p>
+      </div>
+      </div>
+      </div>
+      </section> -->
+
+      <!--Contact -->
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 text-center col-md-push-6">
+              <h2 class="section-heading">Contact Us</h2>
+              <h3 class="section-subheading text-muted">Send us an e-mail with any questions to hello@hackmty.com</h3>
+              <a href="mailto:hello@hackmty.com?subject=HackMTY" class="page-scroll btn btn-xl">Send Email</a> 
+            </div>
+            <div class="col-md-6 col-sm-6 text-center col-md-pull-6">
+              <a class="twitter-timeline" href="https://twitter.com/HackMTY" data-widget-id="557793132759502848" style="width: 100%; padding-top: 1%;">Tweets by @HackMTY</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+              </script>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-darkest-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <span class="copyright">Copyright &copy; HackMTY 2018</span>
+            </div>
+            <div class="col-md-4">
+              <ul class="list-inline social-buttons">
+                <li>
+                  <a href="https://twitter.com/hackmty/" target="_blank"><img src="img/twitter.svg" class="img-centered"></a>
+                </li>
+                <li>
+                  <a href="https://facebook.com/HackMTY/" target="_blank"><img src="img/facebook.svg"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul class="list-inline quicklinks">
+                <li><a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" style="color: #fff;">Code of Conduct</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- jQuery Version 1.11.0 -->
+      <script src="js/jquery-1.11.0.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+      <!-- SlidShow -->
+      <script src="js/jquery.backstretch.js"></script>
+      <script>
+        $(".slideshow").backstretch([
+          "img/header-bg.jpg",
+          "img/header-bg2.jpg",
+          "img/header-bg3.jpg",
+          "img/header-bg4.jpg",
+          "img/header-bg5.jpg",
+        ], {fade: 750, duration: 3500});
+      </script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+      <script src="js/classie.js"></script>
+      <script src="js/cbpAnimatedHeader.js"></script>
+
+      <!-- Custom Theme JavaScript -->
+      <script src="js/script.js"></script>
+      <script src="js/countdown.js"></script>
+
+  </body>
 
 </html>

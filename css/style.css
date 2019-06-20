@@ -306,7 +306,11 @@ fieldset[disabled] .btn-xl.active {
         margin: 0 auto;
     }
 }
-
+  
+#jda {
+    width:30%;
+    max-width: 50%;
+}
 @media(max-width: 600px) {
     .navbar-default {
         padding: 25px 0;

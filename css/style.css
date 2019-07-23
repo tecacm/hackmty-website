@@ -308,9 +308,19 @@ fieldset[disabled] .btn-xl.active {
 }
   
 #jda {
+    margin-bottom: 50px;
     width:30%;
     max-width: 50%;
 }
+
+#konfio {
+  margin-bottom: 0px;
+}
+
+#ukko {
+  margin-top: 20px;
+}
+
 @media(max-width: 600px) {
     .navbar-default {
         padding: 25px 0;

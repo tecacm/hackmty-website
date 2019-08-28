@@ -497,17 +497,32 @@ section h3.section-subheading {
     font-weight: 400;
     color: #5a008e;
 }
+#winners h3.section-subheading {
+    margin-bottom: 0px;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: #5a008e;
+}
 
 .winner {
-  height: 80%;
+  vertical-align: top;
+  height: 100;
+  padding: 10px;
+}
+
+.winner p {
+  padding: 0 5%;
+  max-height: 160%;
+  min-height: 150px ;
 }
 .first-place {
   padding: 5px 0;
   background-color: gold;
   border-radius: 2%;
-  height: 60%;
 }
-
 .second-place {
   padding: 5px 0;
   background-color: silver;

@@ -63,6 +63,40 @@ h3 {
     margin: 0 auto;
 }
 
+.partners {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5%;
+}
+
+#sponsors {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#partners {
+  margin-top: 30px;
+  padding: 10% 0;
+}
+
+#winners a:hover {
+  text-decoration: none;
+}
+#winners a {
+  text-decoration: none;
+}
+
+#winners a h2 {
+  color: #333;
+}
+
+.winners-img {
+  width: 70%;
+  max-height: auto;
+  border-radius: 2%;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -462,6 +496,28 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
     color: #5a008e;
+}
+
+.winner {
+  height: 80%;
+}
+.first-place {
+  padding: 5px 0;
+  background-color: gold;
+  border-radius: 2%;
+  height: 60%;
+}
+
+.second-place {
+  padding: 5px 0;
+  background-color: silver;
+  border-radius: 2%;
+}
+
+.third-place {
+  padding: 5px 0;
+  background-color: #cd7f32;
+  border-radius: 2%;
 }
 
 h5 {

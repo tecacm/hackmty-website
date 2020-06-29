@@ -101,6 +101,12 @@ h3 {
     margin: 0 auto;
 }
 
+.img-max-size {
+    max-width: 20px;
+    max-height: 20px;
+    object-fit: contain;
+}
+
 .bg-light-gray {
     /*background-color: #946CB2;*/
     background-color: #662d91;

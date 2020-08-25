@@ -63,6 +63,11 @@ h3 {
     margin: 0 auto;
 }
 
+.facebook {
+    max-width: 40%;
+    margin: 0;
+}
+
 .partners {
     width: 70%;
     margin: 0 auto;

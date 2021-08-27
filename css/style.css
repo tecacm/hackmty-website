@@ -64,8 +64,18 @@ h3 {
 }
 
 .facebook {
-    max-width: 40%;
+    max-width: 60%;
     margin: 0;
+}
+
+.inflection {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.banorte {
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .partners {

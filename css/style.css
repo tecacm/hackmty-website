@@ -324,7 +324,12 @@ fieldset[disabled] .btn-primary.active {
   color: #fff;
   background-color: #662d91;
 }
-
+@media screen and (max-width: 768px) {
+  .btn-xl {
+    padding: 8px 16px; /* Reducir el relleno para pantallas más pequeñas */
+    font-size: 14px; /* Reducir el tamaño de la fuente para pantallas más pequeñas */
+  }
+}
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -643,7 +648,7 @@ section h3.section-heading {
 section h4.section-heading {
   margin-top: 0;
   margin-bottom: 3vh;
-  font-size: 4vw;
+  font-size: 3.5vw;
   color: #662d91;
   background-color: #fff;
   padding: 2vh 4vw;
@@ -655,14 +660,14 @@ section h4.section-heading {
 section h5.section-heading {
   margin-top: 0;
   margin-bottom: 3vh;
-  font-size: 4vw;
+  font-size: 4.5vw;
   color: #fff;
 }
 
 section h5.section-heading {
   margin-top: 32px;
   margin-bottom: 24px;
-  font-size: 4vw;
+  font-size: 4.5vw;
   color: #662d91;
   background-color: #fff;
   padding: 1.5vh 4vw;
@@ -702,6 +707,8 @@ section h3.section-subheading {
   color: #fff;
 }
 
+
+
 .winner {
   vertical-align: top;
   height: 100%; /* Corrección: añadido % */
@@ -733,6 +740,44 @@ section h3.section-subheading {
   background-color: #b3681e;
 }
 
+@media (max-width: 768px) {
+  .winner-col {
+    margin-top: 15px;
+  }
+
+  .winners-img {
+    width: 80%;
+  }
+
+  .service-heading {
+    font-size: 1.5em;
+  }
+
+  .section-subheading {
+    font-size: 1em;
+    margin-top: 8px;
+  }
+}
+
+/* Estilos para pantallas de hasta 576px de ancho */
+@media (max-width: 576px) {
+  .winner-col {
+    margin-top: 10px;
+  }
+
+  .winners-img {
+    width: 100%;
+  }
+
+  .service-heading {
+    font-size: 1.2em;
+  }
+
+  .section-subheading {
+    font-size: 0.9em;
+    margin-top: 6px;
+  }
+}
 
 h5 {
   color: #c4a1df;

@@ -22,7 +22,7 @@ $(document).ready(function(){
    $.extend(settings, options);
   }
   function init(){
-    var newObj = "<ul><li><div class=\"days\"></div></li><li><div class=\"hours\"></div></li><li><div class=\"minutes\"></div></li></ul>"
+    var newObj = "<ul><li><div class=\"days\"></div></li><li><div class=\"hours\"></div></li><li><div class=\"minutes\"></div></li><li><div class=\"seconds\"></div></li></ul>"
    $obj
     .append(newObj);
    countdown_process();

@@ -160,10 +160,17 @@ h3 {
 
 .container-about {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column; /* Column direction to stack boxes vertically */
+  align-items: center; /* Center align items */
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.bottom-boxes {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; /* Ensure the bottom boxes take full width */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 .box {
@@ -180,13 +187,21 @@ h3 {
 
 @media (min-width: 768px) {
   .box {
-    width: 45%; 
+      width: 45%;
+  }
+
+  .bottom-boxes .box {
+      width: 45%;
   }
 }
 
 @media (min-width: 1024px) {
   .box {
-    width: 40%;
+      width: 40%;
+  }
+
+  .bottom-boxes .box {
+      width: 40%;
   }
 }
 
@@ -198,17 +213,36 @@ h3 {
 .box h2 {
   font-size: 24px;
   margin-bottom: 15px;
-}
-
-.box .logo img {
-  width: 30px;
-  height: auto;
-  position: relative;
-  top: 0;
-  left: 0;
+  color: #fff; /* Ensure the color is white */
 }
 
 .box h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #222; /* Ensure the color is white */
+}
+
+.image-container {
+  width: 100%;
+  max-width: 200px; /* Set a maximum width for the image container */
+  margin: 0 auto; /* Center the image container */
+}
+.logo-container {
+  width: 100%;
+  max-width: 200px; /* Set a maximum width for the image container */
+  margin: 0 auto; /* Center the image container */
+}
+.logo-container img {
+  width: 100%;
+  max-width: 80px; /* Set a maximum width for the image container */
+  margin: 0 auto; /* Center the image container */
+}
+.image-container img {
+  width: 100%; /* Make the image take the full width of the container */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.box h3, .box h4 {
   font-size: 20px;
   margin: 10px 0;
   color: #333;
@@ -216,10 +250,39 @@ h3 {
 
 .box p {
   font-size: 16px;
-  color: #555;
+  color: #fff;
   line-height: 1.6;
 }
 
+/* Gold box style */
+.box.gold {
+  background-color: gold;
+  color: #000;
+}
+
+/* Silver box style */
+.box.silver {
+  background-color: silver;
+  color: #000;
+}
+
+/* Bronze box style */
+.box.bronze {
+  background-color: #cd7f32; /* Bronze color */
+  color: #000;
+}
+
+
+.image-container {
+  width: 100%;
+  max-width: 500px; /* Set a maximum width for the image container */
+  margin: 0 auto; /* Center the image container */
+}
+
+.image-container img {
+  width: 100%; /* Make the image take the full width of the container */
+  height: auto; /* Maintain the aspect ratio */
+}
 
 #partners {
   margin-top: 10px;

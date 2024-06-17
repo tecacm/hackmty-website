@@ -165,6 +165,16 @@ h3 {
   max-width: 1200px;
   margin: 0 auto;
 }
+.container-about2 {
+  display: flex;
+  flex-direction: row; /* Cambia a dirección de fila */
+  justify-content: space-around; /* Para alinear horizontalmente */
+  align-items: flex-start; /* Alinea los elementos al principio */
+  max-width: 1200px;
+  margin: auto;
+  gap: 20px; /* Espacio entre los elementos */
+}
+
 
 .bottom-boxes {
   display: flex;
@@ -251,6 +261,11 @@ h3 {
 .box p {
   font-size: 16px;
   color: #fff;
+  line-height: 1.6;
+}
+.box p2 {
+  font-size: 16px;
+  color: #333;
   line-height: 1.6;
 }
 
@@ -723,17 +738,17 @@ section h4.section-heading {
 section h5.section-heading {
   margin-top: 0;
   margin-bottom: 3vh;
-  font-size: 4.5vw;
+  font-size: 3.5vw;
   color: #fff;
 }
 
 section h5.section-heading {
   margin-top: 32px;
   margin-bottom: 24px;
-  font-size: 4.5vw;
+  font-size: 3.5vw;
   color: #662d91;
   background-color: #fff;
-  padding: 1.5vh 4vw;
+  padding: 1.5vh 10vw;
   border-radius: 10vw;
   display: inline-block;
 }
@@ -1196,6 +1211,13 @@ section p {
 aside.clients img {
   margin: 50px auto;
 }
+
+#contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 section#contact {
   background-color: #fff;

@@ -173,6 +173,12 @@ h3 {
   max-width: 1200px;
   margin: auto;
   gap: 20px; /* Espacio entre los elementos */
+
+  /* Reglas de medios para pantallas más pequeñas */
+  @media only screen and (max-width: 768px) {
+    flex-direction: column; /* Cambia a dirección de columna para pantallas más pequeñas */
+    align-items: center; /* Alinea los elementos al centro en pantallas más pequeñas */
+  }
 }
 
 
@@ -182,6 +188,63 @@ h3 {
   width: 100%; /* Ensure the bottom boxes take full width */
   flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
+
+.instagram-media-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* Ratio 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.instagram-media-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.instagram-media {
+  max-width: 540px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .instagram-media {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .instagram-media {
+    max-width: 100%;
+  }
+}
+
+
+.box-responsive {
+  width: 100%;
+  height: auto;
+  max-width: 500px; /* Ajusta esto según el tamaño máximo deseado */
+  margin: 0 auto; /* Centrar horizontalmente */
+  padding: 20px; /* Espaciado interno */
+  background-color: white; /* Color de fondo opcional */
+  border-radius: 10px; /* Bordes redondeados opcional */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+  overflow: hidden; /* Asegura que el contenido embebido no desborde */
+}
+
+@media (max-width: 768px) {
+  .box-responsive {
+    max-width: 100%; /* Asegura que se ajuste en pantallas más pequeñas */
+    padding: 10px; /* Reducir padding en pantallas pequeñas */
+    margin: 0 auto; /* Centrar horizontalmente */
+
+  }
+}
+
+
 
 .box {
   background-color: #fff;
@@ -1212,46 +1275,54 @@ aside.clients img {
   margin: 50px auto;
 }
 
+
 #contact .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 15px; /* Agrega un poco de relleno a los lados para pantallas más pequeñas */
 }
 
-
-section#contact {
-  background-color: #fff;
-  /*background-image: url(../img/map-image.png);*/
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-section#contact .section-heading {
+#contact .section-heading {
   color: #5a008e;
 }
 
-section#contact .form-group {
+#contact .form-group {
   margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+#contact .form-group input,
+#contact .form-group textarea {
   padding: 20px;
+  width: 100%; /* Ajusta el ancho al 100% para ocupar todo el espacio disponible */
 }
 
-section#contact .form-group input.form-control {
-  height: auto;
+#contact .form-group textarea.form-control {
+  height: 236px; /* Reduce la altura del textarea en pantallas más pequeñas */
 }
 
-section#contact .form-group textarea.form-control {
-  height: 236px;
-}
-
-section#contact .form-control:focus {
+#contact .form-control:focus {
   border-color: #662d91;
   box-shadow: none;
 }
 
+@media only screen and (max-width: 600px) {
+  /* Reducir el tamaño del texto y el padding en dispositivos más pequeños */
+  #mce-EMAIL {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #contact .form-group input,
+  #contact .form-group textarea {
+    padding: 15px; /* Reduce el relleno en pantallas más pequeñas */
+  }
+
+  #contact .form-group textarea.form-control {
+    height: 136px; /* Ajusta la altura del textarea en pantallas más pequeñas */
+  }
+}
 section#contact::-webkit-input-placeholder {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;

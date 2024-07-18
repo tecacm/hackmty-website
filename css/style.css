@@ -91,9 +91,6 @@ h3 {
   font-weight: bold;
 }
 
-.sponsors {
-  width: 70%;
-}
 
 .facebook {
   max-width: 60%;
@@ -147,6 +144,55 @@ h3 {
   justify-content: center;
   align-items: center;
   margin-top: 0;
+}
+
+.sponsors {
+  max-height: 350px;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.sponsors-softtek {
+  max-height: 650px;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.sponsors-softtek img{
+  max-width: 100%;
+  height: auto;
+  padding: 10px; 
+}
+
+.sponsors img {
+  max-width: 100%;
+  height: auto;
+  padding: 10px; 
+}
+
+@media screen and (min-width: 600px) {
+  .sponsors img {
+    width: 100%;
+  }
+  .sponsors-softtek img{
+    width: 100%; 
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .sponsors img {
+    width: 100%;
+  }
+  .sponsors-softtek img{
+  width: 100%;
+  }
 }
 
 #sponsors {
@@ -684,10 +730,6 @@ fieldset[disabled] .btn-xl.active {
     padding: 0;
   }
 
-  .sponsors {
-    width: 90%;
-    margin: 0 auto;
-  }
 }
 
 header {

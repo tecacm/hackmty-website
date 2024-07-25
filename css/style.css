@@ -1540,6 +1540,8 @@ img::-moz-selection {
   background: 0 0;
 }
 
+
+
 body {
   webkit-tap-highlight-color: #67328e;
 }
@@ -1654,7 +1656,8 @@ ul {
 /* NEW COUNTDOWNS*/
 
 
-
+/* Comment for update
+ 
 /*    FAQ    */
 .content {
   width: 90%;
